@@ -1,17 +1,17 @@
 package com.example.rik.weather;
 
 public class WeatherObject {
-    private String forcast;
+    private String condition;
     private String image;
     private String location;
     private String temp;
 
-    public String getForcast() {
-        return forcast;
+    public String getCondition() {
+        return condition;
     }
 
-    public void setForcast(String forcast) {
-        this.forcast = forcast;
+    public void setCondition(String condition) {
+        this.condition = condition;
     }
 
     public String getImage() {

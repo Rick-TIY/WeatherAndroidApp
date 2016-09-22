@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         TextView locationText = (TextView) findViewById(R.id.locationTextView);
         locationText.setText(weatherObject.getLocation());
         TextView forcastText = (TextView) findViewById(R.id.forcastTextView);
-        forcastText.setText(weatherObject.getForcast());
+        forcastText.setText(weatherObject.getCondition());
         WebView weatherImg = (WebView) findViewById(R.id.weatherImageView);
         weatherImg.loadUrl(weatherObject.getImage());
 
